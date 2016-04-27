@@ -13,7 +13,7 @@ whatstr.onTextInput (
 		// log the typed char
 		console.log(char);
 	},
-	// optional - specify a element to watch (must be a text field)
+	// optional - specify an element to watch (must be a text input)
 	// if null or empty, all the activity on the webpage is watched
 	document.getElementById('a-text-input')
 );
